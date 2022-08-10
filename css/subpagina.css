@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+    font-family: "Righteous";
+}
+
+.center {
+    max-width: 100vw;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.subpagina-head {
+    width: 1440px;
+    display: flex;
+}
+
+.subpagina-imagem img {
+    width: 230px;
+    height: 330px;
+    border: 2px solid red;
+}
+
+.subpagina-imagem {
+    margin: 2rem;
+
+}
+
+.subpagina-texto {
+    margin-top: 2rem;
+}
+
+.subpagina-titulo {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.subpagina-description {
+    color: gray;
+}
+
+.avaliation {
+    margin-top: 1rem;
+}
+
+.avaliation-text {
+    color: white;
+}
+
+.avaliation-rate {
+    color: yellow;
+}
+
+.subpagina-download {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.subpagina-download a{
+    margin-right: .5rem;
+    margin-top: .5rem;
+    color: white;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 16px;
+    max-height: 52px;
+}
+
+.subpagina-headinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    color: gray;
+}
+
+.subpagina-body {
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+.subpagina-body h1 {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.screenshot-item img {
+    width: 480px;
+    height: 360px;
+    border: 2px solid red;
+}
+
+#disqus_thread {
+    width: 1280px;
+    max-width: 100vw;
+    padding: 0 2%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+.detalhes {
+    width: 100vw;
+}
+
+.detalhes h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1440px;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+td {
+    color: gray;
+}
+
+th,td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+b {
+    color: white;
+}
+
+@media screen and (max-width: 940px){
+    .subpagina-download {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 827px){
+    .subpagina-head {
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .subpagina-download {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subpagina-download a {
+        width: auto;
+    }
+
+    .screenshot-item img {
+        width: 330px;
+        height: 230px;
+        border: 2px solid red;
+    }
+
+
+}

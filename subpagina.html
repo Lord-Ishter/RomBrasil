@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="icos/favicon/icon.png" type="image/x-icon">
+        <title>ROM Brasil</title>
+        <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+        <link rel="stylesheet" href="css/subpagina.css">
+        <link rel="stylesheet" href="css/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="Baixe ROM's de jogos de graça!">
+        <meta name="keywords" content="iso,isos,ps2,playstation 2,jogos,playstation,roms,rom">
+        <meta name="author" content="Lørd">
+        <script src="https://kit.fontawesome.com/52c5eb8d0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <a href="index.html">
+                <div>
+                    <h1 id="rom" class="titulo-element">ROM</h1>
+                    <h1 id="b" class="titulo-element">B</h1>
+                    <h1 id="r" class="titulo-element">R</h1>
+                    <h1 id="a" class="titulo-element">A</h1>
+                    <h1 id="s" class="titulo-element">S</h1>
+                    <h1 id="i" class="titulo-element">I</h1>
+                    <h1 id="l" class="titulo-element">L</h1>
+                </div>
+            </a> 
+        </div><!--titulo-->
+        <div class="nav-header">
+            <ul>
+                <li>
+                    <a class="nav-header-item">Emuladores</a>
+                    <ul class="drop" id="emu-dop">
+                        <p>Emulador de:</p>
+                            <p>(são emuladores de pc)</p>
+                            <li><a href="https://www.mamedev.org">Arcade</a></li>
+                            <li><a href="http://www.atari2600.com.br/Atari/Downloads/0Tsi/Stella_Windows">Atari 2600</a></li>
+                            <li><a href="https://www.emutopia.com/index.php/emulators/item/320-atari-400-800-xl-xe/1180-atari800win-plus">Atari 5200</a></li>
+                            <li><a href="https://emutopia.com/index.php/emulators/item/272-atari-7800/224-wiz-7800">Atari 7800</a></li>
+                            <li><a href="https://icculus.org/virtualjaguar/">Atari Jaguar</a></li>
+                            <li><a href="https://mednafen.github.io">Atari Lynx</a></li>
+                            <li><a href="https://vice-emu.sourceforge.io">Commodore 64</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/gba/vboyadvance.html">Gameboy Advance</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/gba/vboyadvance.html">Gameboy Color</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/genesis/fusion.html">Master System</a></li>
+                            <li><a href="http://vivanonno.vg-network.com">Namco System 22</a></li>
+                            <li><a href="http://pacifi3d.retrogames.com/neocdsdl/">Neo Geo CD</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/misc/neopop.html">Neo Geo Pocket</a></li>
+                            <li><a href="https://www.mesen.ca">Nintendo</a></li>
+                            <li><a href="https://www.pj64-emu.com">Nintendo 64</a></li>
+                            <li><a href="https://www.nogba.com/no$gba-download.htm">Nintendo DS</a></li>
+                            <li><a href="https://br.dolphin-emu.org">Nintendo Gamecube</a></li>
+                            <li><a href="https://br.dolphin-emu.org">Nintendo Wii</a></li>
+                            <li><a href="https://segaretro.org/Chankast">Sega Dreamcast</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/genesis/fusion.html">Sega Genesis</a></li>
+                            <li><a href="https://segaretro.org/Satourne">Sega Saturn</a></li>
+                            <li><a href="http://www.epsxe.com/download.php">Sony PlayStation</a></li>
+                            <li><a href="https://pcsx2.net/downloads/">Sony PlayStation 2</a></li>
+                            <li><a href="https://www.ppsspp.org">Sony PlayStation PSP</a></li>
+                            <li><a href="https://www.zsnes.com">Super Nintendo</a></li>
+                            <li><a href="https://www.emulator-zone.com/doc.php/xbox/xeon.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-header-item">Rom's</a>
+                    <ul class="drop" id="rom-drop">
+                        <p>Rom's para:</p>
+                        <li><a>Tudo</a></li>
+                        <li><a>Arcade</a></li>
+                        <li><a>Atari 2600</a></li>
+                        <li><a>Atari 5200</a></li>
+                        <li><a>Atari 7800</a></li>
+                        <li><a>Atari Jaguar</a></li>
+                        <li><a>Atari Lynx</a></li>
+                        <li><a>Commodore 64</a></li>
+                        <li><a>Gameboy Advance</a></li>
+                        <li><a>Gameboy Color</a></li>
+                        <li><a>Namco System 22</a></li>
+                        <li><a>Neo Geo CD</a></li>
+                        <li><a>Neo Geo Pocket</a></li>
+                        <li><a>Nintendo</a></li>
+                        <li><a>Nintendo 64</a></li>
+                        <li><a>Nintendo GS</a></li>
+                        <li><a>Nintendo Gamecube</a></li>
+                        <li><a>Nintendo Wii</a></li>
+                        <li><a>Sega Dreamcast</a></li>
+                        <li><a>Sega Genesis</a></li>
+                        <li><a>Sega Saturn</a></li>
+                        <li><a>Sony PlayStation</a></li>
+                        <li><a>Sony PlayStation 2</a></li>
+                        <li><a>Sony PlayStation PSP</a></li>
+                        <li><a>Super Nintendo</a></li>
+                        <li><a>Xbox</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-header-item">Gêneros</a>
+                    <ul class="drop" id="gen-drop">
+                        <p>Rom's de:</p>
+                        <li><a>ação</a></li>
+                        <li><a>Aventura</a></li>
+                        <li><a>Luta</a></li>
+                        <li><a>Estratégia</a></li>
+                        <li><a>Corrida</a></li>
+                        <li><a>RPG</a></li>
+                        <li><a>Tiro</a></li>
+                        <li><a>Esportes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-header-item">mods</a>
+                    <ul class="drop" id="mods-drop">
+                        <p>mods para:</p>
+                        <li><a>Arcade</a></li>
+                        <li><a>Atari 2600</a></li>
+                        <li><a>Atari 5200</a></li>
+                        <li><a>Atari 7800</a></li>
+                        <li><a>Atari Jaguar</a></li>
+                        <li><a>Atari Lynx</a></li>
+                        <li><a>Commodore 64</a></li>
+                        <li><a>Gameboy Advance</a></li>
+                        <li><a>Gameboy Color</a></li>
+                        <li><a>Namco System 22</a></li>
+                        <li><a>Neo Geo CD</a></li>
+                        <li><a>Neo Geo Pocket</a></li>
+                        <li><a>Nintendo</a></li>
+                        <li><a>Nintendo 64</a></li>
+                        <li><a>Nintendo GS</a></li>
+                        <li><a>Nintendo Gamecube</a></li>
+                        <li><a>Nintendo Wii</a></li>
+                        <li><a>Sega Dreamcast</a></li>
+                        <li><a>Sega Genesis</a></li>
+                        <li><a>Sega Saturn</a></li>
+                        <li><a>Sony PlayStation</a></li>
+                        <li><a>Sony PlayStation 2</a></li>
+                        <li><a>Sony PlayStation PSP</a></li>
+                        <li><a>Super Nintendo</a></li>
+                        <li><a>Xbox</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--nav-header-->
+        <form action="" class="pesquisa">
+            <input type="text" placeholder="Pesquise ROM's" required>
+            <button type="submit" name="acao"><i class="fas fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+    <nav>
+        <a href="" class="nav-menu" id="letter-hash"><i class="fa-duotone fa-hashtag"></i></a>
+        <a href="" class="nav-menu" id="letter-a"><i class="fa-duotone fa-a"></i></a>
+        <a href="" class="nav-menu" id="letter-b"><i class="fa-duotone fa-b"></i></a>
+        <a href="" class="nav-menu" id="letter-c"><i class="fa-duotone fa-c"></i></a>
+        <a href="" class="nav-menu" id="letter-d"><i class="fa-duotone fa-d"></i></a>
+        <a href="" class="nav-menu" id="letter-e"><i class="fa-duotone fa-e"></i></a>
+        <a href="" class="nav-menu" id="letter-f"><i class="fa-duotone fa-f"></i></a>
+        <a href="" class="nav-menu" id="letter-g"><i class="fa-duotone fa-g"></i></a>
+        <a href="" class="nav-menu" id="letter-h"><i class="fa-duotone fa-h"></i></a>
+        <a href="" class="nav-menu" id="letter-i"><i class="fa-duotone fa-i"></i></a>
+        <a href="" class="nav-menu" id="letter-j"><i class="fa-duotone fa-j"></i></a>
+        <a href="" class="nav-menu" id="letter-k"><i class="fa-duotone fa-k"></i></a>
+        <a href="" class="nav-menu" id="letter-l"><i class="fa-duotone fa-l"></i></a>
+        <a href="" class="nav-menu" id="letter-m"><i class="fa-duotone fa-m"></i></a>
+        <a href="" class="nav-menu" id="letter-n"><i class="fa-duotone fa-n"></i></a>
+        <a href="" class="nav-menu" id="letter-o"><i class="fa-duotone fa-o"></i></a>
+        <a href="" class="nav-menu" id="letter-p"><i class="fa-duotone fa-p"></i></a>
+        <a href="" class="nav-menu" id="letter-q"><i class="fa-duotone fa-q"></i></a>
+        <a href="" class="nav-menu" id="letter-r"><i class="fa-duotone fa-r"></i></a>
+        <a href="" class="nav-menu" id="letter-s"><i class="fa-duotone fa-s"></i></a>
+        <a href="" class="nav-menu" id="letter-t"><i class="fa-duotone fa-t"></i></a>
+        <a href="" class="nav-menu" id="letter-u"><i class="fa-duotone fa-u"></i></a>
+        <a href="" class="nav-menu" id="letter-v"><i class="fa-duotone fa-v"></i></a>
+        <a href="" class="nav-menu" id="letter-w"><i class="fa-duotone fa-w"></i></a>
+        <a href="" class="nav-menu" id="letter-x"><i class="fa-duotone fa-x"></i></a>
+        <a href="" class="nav-menu" id="letter-y"><i class="fa-duotone fa-y"></i></a>
+        <a href="" class="nav-menu" id="letter-z"><i class="fa-duotone fa-z"></i></a>
+    </nav>
+    <div class="subpagina-head center">
+        <div class="subpagina-imagem">
+            <img src="images/populares/Grand-Theft-Auto-San-Andreas-capa.jpg" alt="case-image">
+        </div><!--subpagina-imagem-->
+        <div class="subpagina-texto">
+            <div class="subpagina-titulo">
+                <h1>Grand Theft Auto - San Andreas</h1>
+            </div>
+            <div class="subpagina-description">
+                <p>O jogo se passa no estado ficcional de San Andreas, com a história seguindo Carl "CJ" Johnson em sua luta para lidar com guerras de gangues, confrontos com policiais e as relações com sua família e amigos. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas.</p>
+            </div>
+            <div class="avaliation">
+                <h2 class="avaliation-text">Avaliação</h2>
+                <h2 class="avaliation-rate">9.2/10 ✯</h2>
+            </div>
+            <div class="subpagina-download">
+                <a href="/">Baixar Original</a>
+                <a href="/">Baixar Traduzido</a>
+                <div class="subpagina-headinfo">
+                    <div class="subpagina-tamanho">
+                        <span>Tamanho do Arquivo: </span>
+                        <span>4,2GB</span>
+                    </div>
+                    <div class="subpagina-formato">
+                        <span>Formato do Arquivo: </span>
+                        <span>.iso</span>
+                    </div>
+                    <div class="subpagina-formato">
+                        <span>ID: </span>
+                        <span>SLUS_209.46</span>
+                    </div>
+                </div>
+            </div>
+        </div><!--subpagina-texto-->
+    </div><!--class="subpagina-titulo">-->
+    <div class="subpagina-body">
+        <h1>Screenshot's</h1>
+        <div class="screenshot">
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/02b4af9e51264a6038d51fb1ef458e63.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/199022-grand-theft-auto-san-andreas-screenshot.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/4b324100f6ba92292dbf3579e8d7d0bc.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/a23d9c6197f35d8a988fe8e473e70b8a7b1d682f4c5a30549ee2c79c4084f40d.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/download.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/gta_san_andreas_recreated_ps2_promo_screenshot_by_alphayellow_dex36ah-pre.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/image_65088.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/screen112.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/screenlg8.jpg" alt="screenshot-image">
+            </div>
+            <div class="screenshot-item">
+                <img src="images/screenshots gta sa/zzDowntown.jpg" alt="screenshot-image">
+            </div>
+        </div>
+    </div>
+    <div class="detalhes subpagina-texto">
+        <h1>Detalhes</h1>
+        <table class="center">
+            <tr>
+                <th>Desenvolvedora</th>
+                <td>Rockstar North</td>
+            </tr>
+            <tr>
+                <th>Publicadora</th>
+                <td>Rockstar Games</td>
+            </tr>
+            <tr>
+                <th>Distribuidora</th>
+                <td>Take-Two Interactive</td>
+            </tr>
+            <tr>
+                <th>Produtor</th>
+                <td>Leslie Benzies</td>
+            </tr>
+            <tr>
+                <th>Projetista</th>
+                <td>Craig Filshie</td>
+            </tr>
+            <tr>
+                <th>Escritores</th>
+                <td>Dan Houser<br>
+                    James Worrall<br>
+                    DJ Pool
+                </td>
+            </tr>
+            <tr>
+                <th>Programadores</th>
+                <td>Adam Fowler<br>
+                    Obbe Vermeij<br>
+                    Alexander Roger
+                </td>
+            </tr>
+            <tr>
+                <th>Artista</th>
+                <td>Aaron Garbut</td>
+            </tr>
+            <tr>
+                <th>Compositor</th>
+                <td>Michael Hunter</td>
+            </tr>
+            <tr>
+                <th>Motor</th>
+                <td>RenderWare</td>
+            </tr>
+            <tr>
+                <th>Série</th>
+                <td>Grand Theft Auto</td>
+            </tr>
+            <tr>
+                <th>Plataforma</th>
+                <td>PlayStation 2</td>
+            </tr>
+            <tr>
+                <th>Conversões</th>
+                <td>Microsoft Windows<br>
+                    Xbox<br>
+                    Mac OS X<br>
+                    iOS<br>
+                    Android<br>
+                    Windows Phone<br>
+                    Fire OS<br>
+                    Xbox 360<br>
+                    PlayStation 3</td>
+            </tr>
+            <tr>
+                <th>Lançamento</th>
+                <td><b>PlayStation 2</b><br>
+                    AN 26 de outubro de 2004<br>
+                    PAL 29 de outubro de 2004<br>
+                    <b>Microsoft Windows & Xbox</b><br>
+                    AN 7 de junho de 2005<br>
+                    EU 10 de junho de 2005<br>
+                    <b>Mac OS X</b><br>
+                    INT 12 de novembro de 2010<br>
+                    <b>iOS</b><br>
+                    INT 12 de dezembro de 2013<br>
+                    <b>Android</b><br>
+                    INT 19 de dezembro de 2013<br>
+                    <b>Windows Phone</b><br>
+                    INT 27 de janeiro de 2014<br>
+                    <b>Fire OS</b><br>
+                    INT 15 de maio de 2014<br>
+                    <b>Xbox 360</b><br>
+                    INT 26 de outubro de 2014<br>
+                    <b>PlayStation 3</b><br>
+                    INT 1 de dezembro de 2015<br>
+                    <b>The Definitive Edition</b><br>
+                    INT 11 de novembro de 2021</td>
+            </tr>
+            <tr>
+                <th>Gêneros</th>
+                <td>Ação<br>
+                   Aventura
+                </td>
+            </tr>
+            <tr>
+                <th>Modos de Jogo</th>
+                <td>Singleplayer<br>
+                    Multiplayer
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-------------------------------------------------------------------------------------->
+    <div class="detalhes subpagina-texto">
+        <h1>Detalhes da Tradução</h1>
+        <table class="center">
+            <tr>
+                <th>Autor</th>
+                <td>Mr. Kill</td>
+            </tr>
+            <tr>
+                <th>Grupo</th>
+                <td>Central MiB (extinto)</td>
+            </tr>
+            <tr>
+                <th>Versão</th>
+                <td>1.5</td>
+            </tr>
+            <tr>
+                <th>Lançamento</th>
+                <td>21/10/2008</td>
+            </tr>
+        </table>
+    </div>
+    <div id="disqus_thread"></div>
+        <script>
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://rombrasil-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script src="js/jquery.js"></script>
+    <script src="slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
+    <script src="js/subpagina-screenshot.js"></script>
+    <div class="footer center">
+        <div class="footer-contato">
+            <a href="#">Contato</a>
+        </div>
+        <div class="isht-er">
+            <a href="adminlogin.html"><img src="images/IshterLogo.png" alt="Isht-er"></a>
+        </div>
+        <div class="direitos">
+            <span>© 2022 - ROM Brasil</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,317 @@
+@font-face {
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+    font-family: "Righteous";
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+    font-family: "Righteous";
+}
+
+.center {
+    max-width: 100vw;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.center-footer {
+    max-width: 100vw;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+body {
+	font-size: 100%;
+	background: #1b1b1c;
+	min-height: 100vh;
+    min-width: 100vw;
+	overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+}
+
+header h1 {
+    color: white;
+    display: inline-block;
+}
+
+.titulo-element {
+    font-family: Righteous;
+}
+
+#b {
+    color: green;
+}
+
+#r {
+    color: yellow;
+}
+
+#a {
+    color: blue;
+}
+
+#s {
+    color: white;
+}
+
+#i {
+    color: green;
+}
+
+#l {
+    color: yellow;
+}
+
+.nav-header ul {
+    position: relative;
+}
+
+.nav-header ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-header ul li p {
+    color: red;
+}
+
+.nav-header ul li a {
+    color: white;
+    padding: 10px;
+}
+
+.nav-header ul li a:hover {
+    color: red;
+}
+
+.nav-header ul ul{
+    display: none;
+    position: absolute;
+    border: solid 1px gray;
+    background-color: #1b1b1c;
+    width: 225px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-header ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+.nav-header ul ul li{
+    display: block;
+    padding: .25rem 0;
+}
+
+.nav-header-item {
+    display: flex;
+    font-family: Righteous;
+    color: white;
+    padding-left: 0 1rem;
+    width: 225px;
+    text-align: center;
+    justify-content: center;
+}
+
+.drop {
+    z-index: 5000;
+}
+
+header input {
+    font-family: Righteous;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #363636;
+    outline: none;
+    color: white;
+    padding-left: 1rem;
+    border: 0;
+}
+
+form.pesquisa {
+    background-color: #363636;
+    border-radius: 8px;
+}
+
+.pesquisa button {
+    background-color: transparent;
+    border: none;
+}
+
+.pesquisa i {
+    color: white;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+}
+
+
+.nav-menu {
+    display: inline-block;
+    font-family: Righteous;
+    color: gray;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border: gray solid 1px;
+    cursor: pointer;
+}
+
+.nav-menu:hover {
+    color: red;
+    border: white solid 1px;
+}
+
+.js-number-pag {
+    cursor: default;
+}
+
+.js-number-pag:hover {
+    color: gray;
+    border:gray solid 1px;
+}
+
+.nav-menu-main {
+    display: inline-block;
+    font-family: Righteous;
+    color: gray;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border: gray solid 1px;
+}
+
+section {
+    width: 100vw;
+    text-align: center;
+}
+
+section.center {
+    padding: 0;
+}
+
+.ultimos {
+    border-top: 2px solid gray;
+}
+
+.populares {
+    padding-bottom: 1rem;
+}
+
+h2.section-title {
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+section.section-div {
+    width: 14,28571428571429%;
+}
+
+.section-div {
+    display: inline-block;
+    width: 14,28571428571429%;
+    margin-right: -4px;
+}
+
+.section-item {
+    width: 230px;
+    height: 328px;
+    display: inline-block;
+    margin-right: -4px;
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.section-item span {
+    color: white;
+}
+
+.section-item img {
+    border: 2px solid red;
+    display: inline-block;
+    width: 230px;
+    height: 330px;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-top: 1px solid gray;
+    padding-top: .5rem;
+}
+
+.footer div {
+    width: 155px;
+    text-align: center;
+}
+
+.footer-contato a, .direitos span {
+    color: white;
+    position: relative;
+    bottom: -2rem;
+}
+
+.isht-er img{
+    width: 75px;
+}
+
+@media screen and (max-width: 1422px){
+    header input {
+        width: 120px;
+    }
+
+    .nav-header-item {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1132px){
+    header {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .nav-header-item {
+        width: 225px;
+    }
+
+    header input {
+        width: 250px;
+    }
+
+    h2.section-title {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 913px){
+    .nav-header-item{
+        width: 100%;
+    }
+
+    .drop {
+        left: 15%;
+    }
+}
+    

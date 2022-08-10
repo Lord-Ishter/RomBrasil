@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Righteous";
+}
+
+@font-face {
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+    font-family: "Righteous";
+}
+
+html, body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background: #1b1b1c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conteudo {
+    width: 480px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    position: relative;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 75%;
+}
+
+img {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0rem;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+
+.t {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.e {
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.e:hover {
+    background-color: rgb(202, 0, 0);
+}
+
+.inputs {
+    margin: 0.5rem;
+}
