@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* input {
+    font-family: Righteous;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #363636;
+    outline: none;
+    color: white;
+    padding-left: 1rem;
+    border: 0;
+}
+
+form.pesquisa {
+    background-color: #363636;
+    border-radius: 8px;
+}
+
+.pesquisa button {
+    background-color: transparent;
+    border: none;
+}
+
+.pesquisa i {
+    color: white;
+    padding-right: 1rem;
+    cursor: pointer;
+} */
+
+header div.pesquisa {
+    margin-right: 13rem;
+}
+
+.container-principal {
+    width: 1080px;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    height: 100%;
+}
+
+form {
+    background-color: #363636;
+    border-radius: 8px;
+}
+
+input {
+    font-family: Righteous;
+    width: 960px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #363636;
+    outline: none;
+    color: white;
+    padding-left: 1rem;
+    border: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin-left: .5rem;
+}
+
+button i {
+    color: white;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+li.pesquisa-itens {
+    margin-top: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: #363636;
+    border-radius: 8px;
+}
+
+.pesquisa-imagem img {
+    width: 230px;
+    height: 330px;
+    border: 2px solid red;
+}
+
+.pesquisa-item {
+    display: flex;
+}
+
+.pesquisa-texto {
+    margin-left: 1rem;
+}
+
+.pesquisa-titulo {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.pesquisa-description {
+    color: gray;
+}

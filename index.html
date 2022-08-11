@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
         <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/pesquisa.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="description" content="Baixe ROM's de jogos de graça!">
@@ -16,7 +17,7 @@
     <body>
         <header>
             <div class="titulo">
-                <a href="">
+                <a href="index.html">
                     <div>
                         <h1 id="rom" class="titulo-element">ROM</h1>
                         <h1 id="b" class="titulo-element">B</h1>
@@ -142,10 +143,9 @@
                     </li>
                 </ul>
             </div><!--nav-header-->
-            <form action="" class="pesquisa">
-                <input type="text" placeholder="Pesquise ROM's" required>
-                <button type="submit" name="acao"><i class="fas fa-magnifying-glass"></i></button>
-            </form>
+            <div action="" class="pesquisa">
+                <a href="pesquisa.html"><button type="submit"><i class="fas fa-magnifying-glass"></i></button></a>
+            </div>
         </header>
         <nav>
             <a href="" class="nav-menu" id="letter-hash"><i class="fa-duotone fa-hashtag"></i></a>
@@ -181,12 +181,12 @@
             <section class="center">
                 <ul class="popular-div" id="slider">
                     <div class="section-div">
-                        <a href="subpagina.html">
                             <li class="section-item">
-                                <span><i class="fa-duotone fa-hashtag"></i>1</span>
-                                <img src="images/populares/Grand-Theft-Auto-San-Andreas-capa.jpg" alt="">
+                                <a href="subpagina.html">
+                                    <span><i class="fa-duotone fa-hashtag"></i>1</span>
+                                    <img src="images/populares/Grand-Theft-Auto-San-Andreas-capa.jpg" alt="">
+                                </a>
                             </li>
-                        </a>
                     </div>
                     <div class="section-div">
                         <li class="section-item">
@@ -420,11 +420,6 @@
                         </li>
                     </div>
                 </ul>
-                <div class="center-footer nav-pag">
-                    <a class="nav-menu js-prev-pag"><i class="fa-solid fa-angles-left"></i></a>
-                    <p class="nav-menu js-number-pag"><i class="fa-solid fa-1"></i></p>
-                    <a class="nav-menu js-next-pag"><i class="fa-solid fa-angles-right"></i></a>
-                </div>
             </section>
         </div>
         <div class="footer center">
