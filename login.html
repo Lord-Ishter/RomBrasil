@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login</title>
+		<script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/LoginStyle.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="conteudo primeiro-conteudo">
+				<div class="slide">
+					<h2 class="titulo" id="title1">Olá, adm!</h2>
+					<p class="description descriptionslide">Caso você não tenha uma conta</p>
+					<p class="description descriptionslide">você não tem permissão para continuar.</p>
+					<input class="btn btn-slide" id="signin" type="submit" value="Créditos"><!--botão do slide-->
+				</div><!--slide-->
+
+				<div class="conteudo-de-login">
+					<img class="logo" src="./icos/icon.png" alt="logo da lothbrok libertas"><!--logo-->
+					<h2 class="titulo">Login</h2><!--cabeçalho do login-->
+					<form action="" class="fomulario">
+						<div class="input-field">
+							<label for="">
+							<i class="fas fa-user icon-modify"></i>
+							<input type="text" name="username" id="username" required>
+							<div class="underline"></div>
+							</label>
+						</div><!--caixa de entrada do email-->
+
+						<div class="input-field">
+							<label for="">
+							<i class="fas fa-lock icon-modify"></i>
+							<input type="password" name="password" id="password" required>
+							<div class="underline"></div>
+							</label>
+						</div><!--caixas de entrada da senha-->
+
+						<input class="btn" type="submit" value="Logar"><!--botão de login-->
+					</form><!--formulario-->
+				</div> <!--conteudo do login-->
+			</div><!--primeiro conteudo-->
+
+			<div class="conteudo segundo-conteudo">
+				<div class="slide">
+					<h2 class="titulo" id="title2">Bem vindo!</h2>
+					<p class="description descriptionslide">Caso você já tenha uma conta</p>
+					<p class="description descriptionslide">clique no botão abaixo para fazer o login.</p>
+					<input class="btn" id="signup" type="submit" value="Logar-se"><!--botão do slide-->
+				</div><!--slide-->
+
+				<div class="conteudo-de-login">
+					<img class="logo2" src="./images/IshterLogo.png" alt="logo do Isht-er"><!--logo-->
+					<sup>Created By:</sup><h2 class="titulo" id="lord">Lørd</h2><!--cabeçalho do registro-->
+				</div>
+			</div> <!--segundo conteudo-->
+		</div><!--container-->
+		<script src="js/app.js"></script>
+	</body>
+</html>

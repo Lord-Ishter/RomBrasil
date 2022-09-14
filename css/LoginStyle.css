@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Righteous", "Sarala";
+}
+
+body {
+    background: linear-gradient(45deg, #363636 16.62%, #000000 85.61%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conteudo {
+    width: 960px;
+    height: 484,5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1c;
+    border-radius: 16px;
+    position: relative;
+}
+
+.conteudo::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    left: 0%;
+}
+
+.primeiro-conteudo {
+    display: flex;
+}
+
+.primeiro-conteudo .conteudo-de-login {
+    z-index: 11;
+    margin-left: 2rem;
+}
+
+.slide {
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    z-index: 10;
+    max-width: 374px;
+}
+
+.segundo-conteudo {
+    position: absolute;
+    display: flex;
+
+}
+
+.segundo-conteudo .slide {
+    order: 2;
+    z-index: -1;
+}
+
+.segundo-conteudo .conteudo-de-login {
+    order: 1;
+    z-index: -1;
+    margin-right: 2rem;
+}
+
+div.conteudo-de-login {
+    min-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div img {
+    height: 75px;
+    display: flex;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.logo2 {
+    height: 200px;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+sup {
+    color: gray;
+}
+
+h2.titulo {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    color: white;
+}
+
+#lord {
+    font-size: 40px;
+    margin-left: 2rem;
+    top: -0.5rem;
+}
+
+i {
+    color: gray;
+}
+
+input {
+    background-color: #1b1b1c;
+}
+
+input::placeholder {
+    color: white;
+}
+
+h2.titulo::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    bottom: 0px;
+    border-radius: 8px;
+    background: #ff0000ff;
+}
+
+#title1 {
+    color: #1b1b1c;
+}
+
+#title2 {
+    color: #1b1b1c;
+}
+
+#title1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    bottom: 0px;
+    border-radius: 8px;
+    background: #1b1b1c;
+}
+
+#title2::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    bottom: 0px;
+    border-radius: 8px;
+    background: #1b1b1c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+    padding: 5px;
+    background-color: #1b1b1c;
+    border-bottom: 1px solid gray;
+}
+
+#username {
+    min-width: 100%;
+}
+
+#email {
+    min-width: 100%;
+}
+
+#password {
+    min-width: 100%;
+}
+
+form .input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+form .input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    background: #ff0000ff;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn[type="submit"] {
+    margin-top: 1rem;
+    padding: 10px 50px;
+    background: #ff0000ff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+#signin, #signup {
+    background-color: transparent;
+    border: 1px solid #1b1b1c;
+    color: #1b1b1c;
+}
+
+#signin:hover, #signup:hover {
+    letter-spacing: 0.5px;
+    background: #252527;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: #FF6347;
+}
+
+div.registros {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.descriptionslide {
+    color: #1b1b1c;
+}
+
+.icon-modify {
+    padding: 0 5px;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.sign-in-js .primeiro-conteudo .slide, 
+.sign-in-js .primeiro-conteudo .conteudo-de-login {
+    z-index: -1;
+}
+
+.sign-in-js .segundo-conteudo .conteudo-de-login {
+    z-index: 11;
+}
+
+.sign-in-js .segundo-conteudo .slide {
+    z-index: 13;
+}
+
+.sign-in-js .conteudo::before {
+    left: 60%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    animation: signin 1.2s;
+
+    z-index: 12;
+}
+
+.sign-up-js .segundo-conteudo .slide,
+.sign-up-js .segundo-conteudo .conteudo-de-login {
+    z-index: -1;
+}
+
+.sign-up-js .primeiro-conteudo .slide {
+    z-index: 12;
+}
+
+.sign-up-js .primeiro-conteudo .conteudo-de-login {
+    z-index: 11;
+}
+
+.sign-up-js .conteudo::before {
+    animation: signout 1.2s;
+    z-index: 11;
+}
+
+
+@keyframes signin {
+
+    from {
+        left: 0;
+        width: 40%;
+    }
+
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+@keyframes signout {
+
+    from {
+        left: 60%;
+        width: 40%;
+    }
+
+    to {
+        left: 0;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .primeiro-conteudo .conteudo-de-login {
+        margin-left: 0rem;
+        width: 0px;
+    }
+
+    div.conteudo-de-login {
+        padding: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        min-width: 250px;
+    }
+
+    .conteudo {
+        width: 496px;
+    }
+
+    .conteudo::before {
+        width: 50%;
+    }
+
+    .sign-in-js .conteudo::before {
+        left: 50%;
+    }
+
+    .slide {
+        width: 154px;
+        padding: 0rem;
+    }
+
+    .segundo-conteudo .slide {
+        margin-right: 2rem;
+    }
+
+    @keyframes signin {
+
+        from {
+            left: 0;
+            width: 50%;
+        }
+    
+        to {
+            left: 50%;
+            width: 50%;
+        }
+    }
+
+    @keyframes signout {
+
+        from {
+            left: 50%;
+            width: 50%;
+        }
+    
+        to {
+            left: 0;
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .conteudo {
+        width: 316px;
+        justify-content: normal;
+    }
+
+    .logo2 {
+        height: 130px;
+    }
+
+    .primeiro-conteudo .conteudo-de-login {
+        margin-left: 0rem;
+    }
+
+    div.conteudo-de-login {
+        min-width: 130px;
+        padding: 0rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .slide {
+        padding: 0rem;
+        max-width: 154px;
+    }
+
+    .conteudo::before {
+        width: 50%;
+    }
+
+    .sign-in-js .conteudo::before {
+        left: 50%;
+    }
+
+    .segundo-conteudo .conteudo-de-login {
+        margin-right: 0rem;
+    }
+
+    .segundo-conteudo .slide {
+        padding-left: 1rem;
+    }
+
+    .conteudo-de-login {
+        max-width: 150px;
+    }
+
+    .btn[type="submit"] {
+        padding: 10px 10px;
+    }
+
+    form {
+        max-width: 130px;
+    }
+
+    div.footer {
+        max-width: 130px;
+    }
+
+    div.social-fields {
+        max-width: 130px;
+    }
+
+    form.formulario {
+        max-width: 130px;
+    }
+
+    .footer .social-field a {
+        text-align: center;
+        display: table-footer-group;
+    }
+
+    @keyframes signin {
+
+        from {
+            left: 0;
+            width: 50%;
+        }
+    
+        to {
+            left: 50%;
+            width: 50%;
+        }
+    }
+
+    @keyframes signout {
+
+        from {
+            left: 50%;
+            width: 50%;
+        }
+    
+        to {
+            left: 0;
+            width: 50%;
+        }
+    }
+}

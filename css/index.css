@@ -13,12 +13,16 @@
 
 body::-webkit-scrollbar {
 	width: 6px;
-	background-color: #363636;
+	background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-	background: black;
+	background: rgba(255, 255, 255, 0.1);
 	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .center {
@@ -172,6 +176,10 @@ nav {
     text-align: center;
 }
 
+.filterletter {
+    background-color: #1b1b1c;
+    padding-bottom: 1rem;
+}
 
 .nav-menu {
     display: inline-block;
@@ -182,6 +190,12 @@ nav {
     padding-left: 1rem;
     border: gray solid 1px;
     cursor: pointer;
+}
+
+.topo {
+    position: fixed;
+    z-index: 5000;
+    top: 0rem;
 }
 
 .nav-menu:hover {
@@ -223,6 +237,7 @@ section.center {
 
 .populares {
     padding-bottom: 1rem;
+    padding-top: 5rem;
 }
 
 h2.section-title {
@@ -261,6 +276,10 @@ section.section-div {
     height: 330px;
 }
 
+.section-item img:hover {
+    border: 2px solid white;
+}
+
 .footer {
     display: flex;
     width: 100vw;
@@ -293,6 +312,10 @@ section.section-div {
     .nav-header-item {
         width: 150px;
     }
+
+    .populares {
+        padding-top: 15rem;
+    }
 }
 
 @media screen and (max-width: 1132px){
@@ -305,8 +328,8 @@ section.section-div {
         width: 225px;
     }
 
-    header input {
-        width: 250px;
+    header a button i {
+        margin-left: 13rem;
     }
 
     h2.section-title {
@@ -320,8 +343,16 @@ section.section-div {
         width: 100%;
     }
 
+    header a button i {
+        margin-left: 15rem;
+    }
+
     .drop {
         left: 15%;
+    }
+
+    .populares {
+        padding-top: 16rem;
     }
 }
     

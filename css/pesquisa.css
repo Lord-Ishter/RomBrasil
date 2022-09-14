@@ -32,6 +32,10 @@ form.pesquisa {
     cursor: pointer;
 } */
 
+.pesquisa-principal {
+    margin-top: 10rem;
+}
+
 header div.pesquisa {
     margin-right: 13rem;
 }
@@ -72,12 +76,20 @@ button i {
     cursor: pointer;
 }
 
+button i:hover {
+    color: red;
+}
+
 li.pesquisa-itens {
     margin-top: 1rem;
     padding: 1rem;
     list-style-type: none;
     background-color: #363636;
     border-radius: 8px;
+}
+
+li.pesquisa-itens:hover {
+    background-color: #404040;  
 }
 
 .pesquisa-imagem img {
@@ -101,4 +113,37 @@ li.pesquisa-itens {
 
 .pesquisa-description {
     color: gray;
+}
+
+@media screen and (max-width: 1132px) {
+    .container-principal {
+        width: 720px;
+    }
+
+    input {
+        width: 600px;
+    }
+
+    .pesquisa-principal {
+        margin-top: 16rem;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .container-principal {
+        width: 480px;
+    }
+
+    input {
+        width: 390px;
+    }
+    
+    .pesquisa-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pesquisa-principal {
+        margin-top: 18rem;
+    }
 }
